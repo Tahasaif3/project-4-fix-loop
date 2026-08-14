@@ -1,5 +1,5 @@
 def total_price(unit_price, quantity):
-    if quantity > 10:
+    if quantity >= 10:
         discount = 0.15
     elif quantity > 5:
         discount = 0.05
