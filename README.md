@@ -27,3 +27,11 @@ discount tier it should land in - an off-by-one at the boundary.
 ## Done when
 - A real fix gets `PASS` and a real PR.
 - A deliberately incomplete fix gets `FAIL` with reasons, and no PR.
+
+## Result
+- `fix/discount-boundaries` -> reviewer said `PASS` -> real PR opened:
+  https://github.com/Tahasaif3/project-4-fix-loop/pull/1
+- `fix/discount-boundaries-bad` (only fixed the 10-quantity boundary, left
+  the 5-quantity one broken on purpose) -> reviewer said `FAIL`:
+  test suite still had 1 failing test, and the diff only touched one of
+  the two boundary conditions. No PR opened for this branch.
