@@ -34,4 +34,4 @@ discount tier it should land in - an off-by-one at the boundary.
 - `fix/discount-boundaries-bad` (only fixed the 10-quantity boundary, left
   the 5-quantity one broken on purpose) -> reviewer said `FAIL`:
   test suite still had 1 failing test, and the diff only touched one of
-  the two boundary conditions. No PR opened for this branch.
+  the two boundary conditions. No PR opened for this branch
